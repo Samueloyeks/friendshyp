@@ -1,0 +1,100 @@
+# FRONTEND
+# Compiled output
+/friendshyp-frontend//ist
+/friendshyp-frontend/tmp
+/friendshyp-frontend/out-tsc
+/friendshyp-frontend//bazel-out
+
+# Node
+/friendshyp-frontend/node_modules
+/friendshyp-frontend/npm-debug.log
+/friendshyp-frontend/yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/friendshyp-frontend/.angular/cache
+.sass-cache/
+/friendshyp-frontend/connect.lock
+/friendshyp-frontend/coverage
+/friendshyp-frontend/libpeerconnection.log
+testem.log
+/friendshyp-frontend/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+# BACKEND
+# compiled output
+/friendshyp-backend/dist
+/friendshyp-backend/node_modules
+/friendshyp-backend/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/friendshyp-backend/coverage
+/friendshyp-backend/.nyc_output
+
+# IDEs and editors
+/friendshyp-backend/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+/friendshyp-backend/.env
+/friendshyp-backend/.env.development.local
+/friendshyp-backend/.env.test.local
+/friendshyp-backend/.env.production.local
+/friendshyp-backend/.env.local
+
+# temp directory
+/friendshyp-backend.temp
+/friendshyp-backend.tmp
+
+# Runtime data
+/friendshyp-backendpids
+/friendshyp-backend*.pid
+/friendshyp-backend*.seed
+/friendshyp-backend*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
